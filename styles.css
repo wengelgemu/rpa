@@ -1,0 +1,113 @@
+@keyframes fade {
+    from {background-color: #FFFFFF;}
+    to {background-color: #EBE6DB;}
+  }
+  
+  html {
+    animation-name: fade;
+    animation-duration: 4s;
+    background-color: #EBE6DB;
+    color: #F2E6DD
+  }
+
+  .page-header-title {
+    margin-top: 50px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    text-align: center;
+    color: #8D9E7D;
+    font-size: 100px;
+    font-family: futura-pt, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  .page-header-title:hover{
+    color: #E49AA0;
+  }
+  .page-header-sub {
+    margin-top: 0px;
+    text-align: center;
+    margin-left: 28px;
+    color: #232323;
+    font-size: 15px;
+    font-family: futura-pt,sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    margin-bottom: 150px;
+  }
+  .question{
+    color: #E7B054;
+    font-size: 50px;
+    font-family: bookmania,serif;
+    margin-left: 40px;
+    text-align: left;
+    font-weight: 100;
+    font-style: italic;
+    margin-top: 5%;
+    line-height: 10px;
+  }
+  .question:hover{
+    color: #E49AA0;
+    font-weight: 300;
+    /* font-size: 55px; */
+    font-style: normal;
+  }
+  .question:link{
+    text-decoration: none;
+  }
+  .answer{
+    font-family: futura-pt ,sans-serif;
+    font-weight: 200;
+    font-size: 20px;
+    color: #79B2C9;
+    font-style: bold;
+    line-height: 40px;
+    text-align: right;
+    padding: 7%;
+  }
+
+  .answer:hover{
+    color: #E49AA0;
+  }
+
+  .viewing{
+    color: #79B2C9;
+    font-size: 20px;
+    font-family: futura-pt,sans-serif;
+    font-weight: 100;
+    font-style: bold;
+    text-align: center;
+  }
+  .campaign{
+    color: #79B2C9;
+    font-style: bold;
+  }
+  .campaign:hover{
+    color: #E7B054;
+    font-weight: 300;
+  }
+  .campaign:link{
+    text-decoration: none;
+  }
+
+  /* code from https://linkpeek.com/blog/images-on-hover-lib.html */
+img.hover-lib-visible {
+    position: absolute;
+    width: 30%;
+    z-index: 0;
+  }
+  
+  .page-bottom{
+    margin-top: 250px;
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 30px;
+    font-family: futura-pt,sans-serif;
+    color: #C784CE;
+    margin-bottom: 200px;
+  }
+  .page-bottom:hover{
+    color: #E7B054;
+  }
+
+  
